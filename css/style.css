@@ -3,18 +3,27 @@
     padding: 0;
 }
 body{
-   Color: #4A4A4A;
+    color: #4A4A4A;
+    background-color: #fff;
+    text-rendering: geometricPrecision;
 }
+
 h1{
     font-size: 40px;
     text-align: center;
 }
+#menuNavegacao {
+    text-align: right;
+    padding-right: 60px;
+    border-bottom: solid;
+    font-size: 25px;
+    font-family: sans-serif;
+}
 .colunadocardapio{
-    background-color: rgb(18, 245, 245);
+    background-color: rgb(163, 167, 167);
     width: 100%;
     height: 20px;
     text-align: center;
-    color: #c91717;
     font-size: 20px;
     padding: 5px;
     
@@ -23,8 +32,8 @@ h1{
 }
 .cardapioDentro{
     display: flex;
-    flex-direction: column;
-    background-color: #ffffff;
+    flex-wrap: wrap;
+    text-transform: uppercase !important;
 }
 .itemCardapio{
     border-style: solid;
@@ -38,14 +47,14 @@ h1{
 .nomeItem{
     font-family: 'Lato', sans-serif !important;
     font-size: 20px;
+    font-weight: 400;
     letter-spacing: 0.2px;
     text-transform: uppercase !important;
     line-height: 20px;
-    color: #483ed3;
     
 }
 .descricaoItem{
-    font-family: 'Lato', sans-serif !important;
+    font-family: sans-serif !important;
     font-weight: 300;
     font-size: 18px;
     line-height: 20px;
@@ -59,4 +68,14 @@ h1{
     line-height: 20px;
     padding-bottom: 5px;
     min-height: 54px;
+}
+.rodape{
+    
+    color: black;
+    background-color: aqua;
+}
+.rodape aParaFooter{
+    text-decoration: none;
+    color: black;
+    
 }
