@@ -135,3 +135,35 @@ img{
     max-width:100%;
 	height:auto;
 }
+
+
+/* inicio pagina contato ---------------------------------------------*/
+
+.contato{
+    text-align: center;
+    line-height: 25px;
+    border-radius: 4px;
+    bottom: 10px;
+    padding: 20px;
+
+}
+
+.horario{
+    text-align: center;
+    line-height: 25px;
+    border-radius: 4px;
+    bottom: 10px;
+    padding: 20px;
+
+}
+
+.localizacao{
+    text-align: center;
+    line-height: 25px;
+    border-radius: 4px;
+    bottom: 10px;
+    padding: 20px;
+
+}
+
+/* fim pagina contato ---------------------------------------------*/
