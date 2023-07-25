@@ -6,7 +6,7 @@
 /* Inicio Cabeçalho --------------------------------------------------------------------*/
 .header {
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #f8f1ae;
     padding: 30px 10px;
 }
 
@@ -140,11 +140,18 @@ img{
 /* inicio pagina contato ---------------------------------------------*/
 
 .contato{
+
     text-align: center;
     line-height: 25px;
     border-radius: 4px;
     bottom: 10px;
-    padding: 20px;
+   
+    /*border: 1px solid #000000;*/
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    margin-right: 500px;    
+    
 
 }
 
@@ -153,17 +160,30 @@ img{
     line-height: 25px;
     border-radius: 4px;
     bottom: 10px;
-    padding: 20px;
+     
+    margin-bottom: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
 
 }
 
 .localizacao{
     text-align: center;
     line-height: 25px;
-    border-radius: 4px;
-    bottom: 10px;
-    padding: 20px;
+    border-radius: 4px;    
+    
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.map{  
+       
+    text-align: center; 
+    justify-content: center;  
+    bottom: 10px;  
 
 }
+
+
 
 /* fim pagina contato ---------------------------------------------*/
