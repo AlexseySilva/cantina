@@ -1,35 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* Inicio Cabeçalho --------------------------------------------------------------------*/
 .header {
     overflow: hidden;
     background-color: #ddcd3b;
-    padding: 30px 10px;
+    padding: 20px 10px;
 }
+
 .header a {
     float: left;
     color: black;
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 25px;
     border-radius: 4px;
     justify-content: center;
     margin-right: 50px;
 }
+
 .header img.logo {
     max-width: 20%;
+    padding-left: 50px;
 }
+
 .header a:hover {
     background-color: hsla(29, 76%, 18%, 0.467);
     color: #000000;
 }
+
 .header-right {
     float: right;
 }
+
 /* Cabeçalho Responsivo */
 @media screen and (max-width: 500px) {
     .header a {
@@ -42,16 +49,54 @@
         float: none;
     }
 }
+
 /* Fim Cabeçalho --------------------------------------------------------------------*/
-body{
+
+
+
+body {
     color: #4A4A4A;
     background-color: #f7f8c5;
     text-rendering: geometricPrecision;
 }
-h1{
+
+h1 {
     font-size: 40px;
     text-align: center;
 }
+
+.texto_fundo {
+
+    text-align: start;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    color: #ddcd3b;
+    font-size: 60px;
+
+
+}
+
+.fundo {
+    margin-bottom: 0;
+}
+
+.fundo_2 img {
+    padding-bottom: 0px;
+}
+
+.titulo_nossa_historia {
+    padding-bottom: 20px;
+}
+
+
+.nossa_historia {
+    padding: 50px;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
 #menuNavegacao {
     text-align: right;
     padding-right: 60px;
@@ -59,7 +104,8 @@ h1{
     font-size: 25px;
     font-family: sans-serif;
 }
-.colunadocardapio{
+
+.colunadocardapio {
     background-color: rgb(163, 167, 167);
     width: 100%;
     height: 20px;
@@ -67,27 +113,31 @@ h1{
     font-size: 20px;
     padding: 5px;
 }
-.cardapioDentro{
+
+.cardapioDentro {
     display: flex;
     flex-wrap: wrap;
     text-transform: uppercase !important;
 }
-.itemCardapio{
+
+.itemCardapio {
     border-style: solid;
     width: 350px;
     margin: 5px;
     text-align: center;
 }
-.nomeItem{
+
+.nomeItem {
     font-family: 'Lato', sans-serif !important;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 0.2px;
     text-transform: uppercase !important;
     line-height: 20px;
-    
+
 }
-.descricaoItem{
+
+.descricaoItem {
     font-family: sans-serif !important;
     font-weight: 300;
     font-size: 18px;
@@ -95,7 +145,8 @@ h1{
     padding-bottom: 5px;
     min-height: 54px;
 }
-.descricaoItem{
+
+.descricaoItem {
     font-family: 'Lato', sans-serif !important;
     font-weight: 300;
     font-size: 18px;
@@ -103,12 +154,14 @@ h1{
     padding-bottom: 5px;
     min-height: 54px;
 }
-img{
-    max-width:100%;
-	height:auto;
+
+img {
+    max-width: 100%;
+    height: auto;
 }
+
 /* inicio pagina contato ---------------------------------------------*/
-.contato{
+.contato {
     text-align: center;
     line-height: 25px;
     border-radius: 4px;
@@ -116,7 +169,13 @@ img{
     padding: 20px;
 
 }
-.horario{
+
+.contato a {
+    text-decoration: none;
+
+}
+
+.horario {
     text-align: center;
     line-height: 25px;
     border-radius: 4px;
@@ -124,62 +183,82 @@ img{
     padding: 20px;
 
 }
-.localizacao{
+
+.localizacao {
     text-align: center;
     line-height: 25px;
     border-radius: 4px;
     bottom: 10px;
     padding: 10px;
 }
-.map{
-    text-align: center;    
-    margin-bottom: 10px;
+
+.map {
+    text-align: center;
+    margin-bottom: 0px;
     
+
 }
+
+
+
 /* fim pagina contato ---------------------------------------------*/
-footer{
+footer {
     width: 100%;
     height: 100px;
     align-items: center;
     /* //centraliza horizontalmente */
     justify-content: center;
     /*  //cetraliza verticalmente */
-    margin-bottom: 0px;  
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 0px;
     align-items: center;
     text-align: center;
-    background-color: #ddcd3b;
-    text-decoration: none;
+    background-color: #dd7c3b;
+    color: #000000;
+
 }
-.nossocontato{
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+    padding-bottom: 0px;
+
+}
+
+.nossocontato {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    margin-bottom: 0px;  
-    padding-bottom: 0px;  
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     width: 100%;
     background-color: #61615e;
     text-decoration: none;
-    color: #b6b4b4;
+    color: #313030;
 }
-.contato_ref{
+
+.contato_ref {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
     position: relative;
-    
-}
-.contato_ref a{
-    text-decoration: none;
-    color: #acaaaa;
+
 }
 
-.div-fotos{
+.contato_ref a {
+    text-decoration: none;
+    color: #313030;
+}
+
+.div-fotos {
     display: flex;
     flex-wrap: wrap;
 }
+
 div.polaroid {
     width: 23%;
     background-color: #f8f1ae;
