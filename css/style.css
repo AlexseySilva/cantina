@@ -38,7 +38,7 @@
 }
 
 /* Cabeçalho Responsivo */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
     .header a {
         float: none;
         display: block;
@@ -47,6 +47,20 @@
 
     .header-right {
         float: none;
+    }
+    .texto_fundo {
+
+        text-align: center;
+        position: relative;
+        top: 50%;
+        left: 20%;
+        bottom: 25%;
+        color: #ddcd3b;
+        font-size: 5vw;
+    
+    }
+    p span{
+        text-align: justify;
     }
 }
 
@@ -69,10 +83,10 @@ h1 {
 
     text-align: start;
     position: absolute;
-    top: 60%;
-    left: 30%;
+    top: 70%;
+    left: 20%;
     color: #ddcd3b;
-    font-size: 50px;
+    font-size: 5vw;
 
 }
 
