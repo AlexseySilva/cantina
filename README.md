@@ -14,8 +14,9 @@ O site apresenta informações sobre a cantina, cardápio, fotos, contato, local
 ## 🚀 Como usar
 1. Faça o download ou clone este repositório:
    ```
-   git clone https://github.com/AlexseySilva/SEU_REPOSITORIO.git
+   git clone https://github.com/AlexseySilva/NOME_DO_REPOSITORIO.git
    ```
+   > Substitua `NOME_DO_REPOSITORIO` pelo nome real do seu repositório no GitHub.
 2. Abra a pasta do projeto e clique no arquivo `index.html` para visualizar no navegador.
 
 ## 🖼️ Pré-requisitos
