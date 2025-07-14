@@ -1,103 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cantina duas Marias</title>
+    <title>Cantina Duas Marias</title>
+    <meta name="description" content="Cantina Duas Marias - Tradição, qualidade e carinho em cada refeição! Veja cardápio, horários, endereço e novidades.">
+    <meta name="keywords" content="cantina, escola, comida, cardápio, Campinas, SENAI, Duas Marias">
+    <meta property="og:title" content="Cantina Duas Marias">
+    <meta property="og:description" content="Tradição, qualidade e carinho em cada refeição!">
+    <meta property="og:image" content="assets/logo_cantina.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="assets/icon_cantina.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!-- Inicio Cabeçalho ---------------------------------------  -->
-    <div class="header">
-
-        <img class="logo" src="assets/logo_cantina.png" alt="">
-        <div class="header-right">
-            <a href="#">Principal</a>
-            <!-- <a href="historia.html">História</a> -->
+    <header class="header">
+        <img class="logo" src="assets/logo_cantina.png" alt="Logo Cantina Duas Marias">
+        <nav class="header-right">
+            <a href="#" class="active">Principal</a>
             <a href="cardapio.html">Cardápio</a>
             <a href="album.html">Álbum</a>
             <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <img src="assets/cantina4.jpg" alt="Cantina" class="hero-img">
+        <div class="hero-text">
+            <h1>CANTINA DUAS MARIAS</h1>
+            <p>Tradição, qualidade e carinho em cada refeição!</p>
         </div>
-    </div>
-    <!-- Fim Cabeçalho ------------------------------------------  -->
-
-
-    <div class="fundo">
-        <img src="assets/cantina4.jpg">
-        <div class="texto_fundo">
-            <strong>CANTINA DUAS MARIAS</strong>
-        </div>
-    </div>
+    </section>
     <main>
-        <div class="master">
-
-            <div class="nossa_historia">
-                <div class="titulo_nossa_historia">
-                    <h1 id="historia">Nossa história</h1>
+        <section class="destaques">
+            <h2>Destaques do Dia</h2>
+            <div class="destaques-lista">
+                <div class="destaque-card">
+                    <strong>Pão de queijo recheado</strong>
+                    <span>Promoção: R$ 4,00</span>
                 </div>
-                <p><span>A "Cantina Duas Marias", administrada por Maria Aparecida e Maria de Fátima, é originada de uma
-                        família que desde sempre teve contato com o mundo culinário; Começando no ramo culinário por
-                        volta dos anos 2000 no 'Instituto Educacional Imaculada', ficando por mais de 10 anos na cantina
-                        do colégio, partindo logo depois para o 'SENAI Roberto Mange', que tinha aberto uma licitação na
-                        época, depois de um tempo conseguiu obter a vaga, trabalhando durante 5 anos no local. As sócias
-                        também atuaram em uma cantina menor em uma escola de Itatiba, porém ficando menos tempo por lá.
-                        E foi em 2019 que a 'Cantina Duas Marias' veio para o 'SENAI Euryclides de Jesus Zerbini'. Pouco
-                        tempo depois houve o baque da pandemia causada pelo COVID-19, trazendo momentos de grande
-                        desconforto para as sócias, porém, felizmente os anos se passaram e as coisas se estabilizaram,
-                        tendo seu negócio totalmente sólido e prosperado hoje em dia, sendo uma enorme referência de
-                        qualidade, tanto em seus produtos quanto em seu atendimento!
-                        A Cantina Duas Marias funciona das 7:00 da manhã até as 21:00 da noite de segunda a sexta, e das
-                        7:00 da manhã até as 15:30 da tarde no sábado; sempre trazendo uma grande variedade em seu
-                        cardápio, servindo um café da manhã e tendo disponível diversos tipos de salgados logo no começo
-                        da manhã, além disso também conta com almoço 'self-service' na parte da tarde, e também
-                        disponibiliza outra variedade de salgados (além dos sucos e refrigerantes) na parte da noite.
+                <div class="destaque-card">
+                    <strong>Suco natural</strong>
+                    <span>Novidade!</span>
+                </div>
+            </div>
+        </section>
+        <section class="historia-card">
+            <h2>Nossa história</h2>
+            <div class="historia-content">
+                <img src="assets/cantina3.jpg" alt="Foto da Cantina" class="historia-img">
+                <p>
+                    <span>
+                        A "Cantina Duas Marias", administrada por Maria Aparecida e Maria de Fátima, é originada de uma família que desde sempre teve contato com o mundo culinário; Começando no ramo culinário por volta dos anos 2000 no 'Instituto Educacional Imaculada', ficando por mais de 10 anos na cantina do colégio, partindo logo depois para o 'SENAI Roberto Mange', que tinha aberto uma licitação na época, depois de um tempo conseguiu obter a vaga, trabalhando durante 5 anos no local. As sócias também atuaram em uma cantina menor em uma escola de Itatiba, porém ficando menos tempo por lá. E foi em 2019 que a 'Cantina Duas Marias' veio para o 'SENAI Euryclides de Jesus Zerbini'. Pouco tempo depois houve o baque da pandemia causada pelo COVID-19, trazendo momentos de grande desconforto para as sócias, porém, felizmente os anos se passaram e as coisas se estabilizaram, tendo seu negócio totalmente sólido e prosperado hoje em dia, sendo uma enorme referência de qualidade, tanto em seus produtos quanto em seu atendimento!<br><br>
+                        A Cantina Duas Marias funciona das 7:00 da manhã até as 21:00 da noite de segunda a sexta, e das 7:00 da manhã até as 15:30 da tarde no sábado; sempre trazendo uma grande variedade em seu cardápio, servindo um café da manhã e tendo disponível diversos tipos de salgados logo no começo da manhã, além disso também conta com almoço 'self-service' na parte da tarde, e também disponibiliza outra variedade de salgados (além dos sucos e refrigerantes) na parte da noite.
                     </span>
                 </p>
             </div>
-        </div>
+        </section>
+        <section class="depoimentos">
+            <h2>Depoimentos</h2>
+            <div class="depoimentos-lista">
+                <div class="depoimento-card">
+                    <img src="assets/Fotos/foto1.jpeg" alt="Aluno feliz">
+                    <blockquote>"Melhor cantina que já frequentei! Atendimento nota 10."</blockquote>
+                    <span>- João, aluno</span>
+                </div>
+                <div class="depoimento-card">
+                    <img src="assets/Fotos/foto2.jpeg" alt="Professora satisfeita">
+                    <blockquote>"Comida sempre fresquinha e deliciosa. Recomendo!"</blockquote>
+                    <span>- Maria, professora</span>
+                </div>
+            </div>
+        </section>
+        <section class="contato-card">
+            <h2>Contato & Localização</h2>
+            <div class="contato-content">
+                <div>
+                    <strong>WhatsApp:</strong> <a href="https://wa.me/+5519974010202/?text=urlencodedtext" target="_blank">(19) 97401-0202</a><br>
+                    <strong>Email:</strong> <a href="mailto:websolucoes.2000@gmail.com">websolucoes.2000@gmail.com</a><br>
+                    <strong>Instagram:</strong> <a href="https://instagram.com/" target="_blank">@cantinadualmarias</a><br>
+                    <strong>Facebook:</strong> <a href="https://facebook.com/" target="_blank">Cantina Duas Marias</a>
+                </div>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps?q=Av.+da+Saudade,+125+-+Ponte+Preta,+Campinas+-+SP,+13041-670&output=embed" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
     </main>
-
-    <div class="fundo">
-        <section><img src="assets/cantina3.jpg"></section>
-
-    </div>
-
-     <!-- RODAPÉ ---------------------------------------  -->
-     <div class="rodape_principal">
-        <footer class="rodape_cheio">
-            <ul class="rodape">
-
-                <li> <a href="https://wa.me/+5519974010202/?text=urlencodedtext" target="_blank"><img
-                            src="assets/whatsapp.png" alt=""></a>
-                </li>
-
-                <li><strong>Horário de Funcionamento</strong>
-                    <p>Segunda a Sexta&nbsp;: 07h00 às 21h00</p>
-                    <p>Sábado&nbsp;: 07h00 às 15h30</p>
-                </li>
-
-                <li> <strong>Endereço</strong>
-                    <p>Av. da Saudade, 125 - Ponte Preta</p>
-                    <p>Campinas - SP, 13041-670</p>
-                </li>
-
-                <br>
-
-                <p>
-                    &copy; 2023 Todos os direitos reservados -
-                    <a href="mailto:websolucoes.2000@gmail.com">Desenvolvido por Web Soluções</a>
-                </p>
-
-            </ul>
-        </footer>
-    </div>
-    <!-- RODAPÉ ---------------------------------------  -->
-
-
+    <footer class="rodape_principal">
+        <div class="rodape_cheio">
+            <div class="rodape-col">
+                <strong>Contato</strong>
+                <a href="https://wa.me/+5519974010202/?text=urlencodedtext" target="_blank">
+                    <img src="assets/whatsapp.png" alt="WhatsApp" style="width:24px;vertical-align:middle;"> WhatsApp
+                </a><br>
+                <a href="https://instagram.com/" target="_blank"><img src="assets/facebook.png" alt="Instagram" style="width:24px;vertical-align:middle;"> Instagram</a><br>
+                <a href="https://facebook.com/" target="_blank"><img src="assets/facebook.png" alt="Facebook" style="width:24px;vertical-align:middle;"> Facebook</a>
+            </div>
+            <div class="rodape-col">
+                <strong>Horário de Funcionamento</strong>
+                <p>Segunda a Sexta: 07h00 às 21h00</p>
+                <p>Sábado: 07h00 às 15h30</p>
+            </div>
+            <div class="rodape-col">
+                <strong>Endereço</strong>
+                <p>Av. da Saudade, 125 - Ponte Preta</p>
+                <p>Campinas - SP, 13041-670</p>
+            </div>
+        </div>
+        <div class="rodape-copy">
+            &copy; 2023 Todos os direitos reservados - <a href="mailto:websolucoes.2000@gmail.com">Desenvolvido por Web Soluções</a>
+        </div>
+    </footer>
+    <button id="topo" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Voltar ao topo">↑</button>
+    <script src="js/extra.js"></script>
 </body>
-
 </html>

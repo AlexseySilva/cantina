@@ -1,129 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cantina duas Marias</title>
+    <title>Cantina Duas Marias - Contato</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="assets/icon_cantina.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!-- Inicio Cabeçalho ---------------------------------------  -->
-    <div class="header">
-
-        <img class="logo" src="assets/logo_cantina.png" alt="">
-        <div class="header-right">
+    <header class="header">
+        <img class="logo" src="assets/logo_cantina.png" alt="Logo Cantina Duas Marias">
+        <nav class="header-right">
             <a href="index.html">Principal</a>
-            <!-- <a href="historia.html">História</a> -->
             <a href="cardapio.html">Cardápio</a>
             <a href="album.html">Álbum</a>
-            <a href="#">Contato</a>
-        </div>
-    </div>
-    <!-- Fim Cabeçalho ------------------------------------------  -->
-
-    <!--
-    <section>
-        <div class="contato">
-            <strong>Fale conosco</strong>
-            <p><a id="aParaFooter" href="mailto:contato@cantina2marias.com.br">contato@cantina2marias.com.br</a></p>
-            <a id="aParaFooter" href="https://wa.me/+5519991454976?text=urlencodedtext">Me chama no whatsapp</a>
-        </div>
-    </section>
-    -->
-    <br>
-    <section>
-        <div class="horario">
-            <strong>Horário de Funcionamento</strong>
-
-            <p>Segunda a Sexta&nbsp;: 07h00 às 21h00</p>
-            <p>Sábado&nbsp;: 07h00 às 15h30</p>
-        </div>
-    </section>
-    <br>
-    <section>
-        <div class="card">
-            <span class="title">Fale conosco</span>
+            <a href="contato.html" class="active">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contato-card">
+            <h1>Fale conosco</h1>
             <form class="form">
                 <div class="group">
-                    <input placeholder="‎" type="text" required="">
+                    <input placeholder=" " type="text" required="">
                     <label for="name">Nome</label>
                 </div>
                 <div class="group">
-                    <input placeholder="‎" type="email" id="email" name="email" required="">
+                    <input placeholder=" " type="email" id="email" name="email" required="">
                     <label for="email">Email</label>
                 </div>
                 <div class="group">
-                    <input placeholder="‎" type="number" id="celular" name="celular" required="">
+                    <input placeholder=" " type="number" id="celular" name="celular" required="">
                     <label for="phone">Celular</label>
                 </div>
-
                 <div class="group">
-                    <textarea placeholder="‎" id="comment" name="comment" rows="5" required=""></textarea>
+                    <textarea placeholder=" " id="comment" name="comment" rows="5" required=""></textarea>
                     <label for="comment">Comentário</label>
                 </div>
                 <button type="submit">Enviar</button>
             </form>
-        </div>
-    </section>
-    <br>
-
-
-
-    <section>
-        <div class="localizacao">
-            <strong>Endereço</strong>
-            <p>Av. da Saudade, 125 - Ponte Preta</p>
-            <p>Campinas - SP, 13041-670</p>
-        </div>
-    </section>
-    <div class="map">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d35470.42899313669!2d-47.06824336868228!3d-22.916444802353375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cf3303ceff43%3A0xea485c60a4b21ef5!2sEscola%20SENAI%20Prof.%20Dr.%20Euryclides%20de%20Jesus%20Zerbini!5e0!3m2!1spt-BR!2sbr!4v1690165514904!5m2!1spt-BR!2sbr"
-            width="400px" height="250px" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    </div>
-
-    <div class="rodape_principal">
-        <footer class="rodape_cheio">
-            <ul class="rodape">
-
-                <li> <a href="https://wa.me/+5519974010202/?text=urlencodedtext" target="_blank"><img
-                            src="assets/whatsapp.png" alt=""></a>
-                </li>
-
-                <li><strong>Horário de Funcionamento</strong>
-                    <p>Segunda a Sexta&nbsp;: 07h00 às 21h00</p>
-                    <p>Sábado&nbsp;: 07h00 às 15h30</p>
-                </li>
-
-                <li> <strong>Endereço</strong>
+        </section>
+        <section class="contato-card">
+            <h2>Endereço & Localização</h2>
+            <div class="contato-content">
+                <div>
+                    <strong>Endereço:</strong>
                     <p>Av. da Saudade, 125 - Ponte Preta</p>
                     <p>Campinas - SP, 13041-670</p>
-                </li>
-
-                <br>
-
-                <p>
-                    &copy; 2023 Todos os direitos reservados -
-                    <a href="mailto:websolucoes.2000@gmail.com">Desenvolvido por Web Soluções</a>
-                </p>
-
-
-            </ul>
-
-
-
-        </footer>
-    </div>
-
-
-
-
-
-
+                    <strong>WhatsApp:</strong> <a href="https://wa.me/+5519974010202/?text=urlencodedtext" target="_blank">(19) 97401-0202</a><br>
+                    <strong>Email:</strong> <a href="mailto:websolucoes.2000@gmail.com">websolucoes.2000@gmail.com</a><br>
+                    <strong>Instagram:</strong> <a href="https://instagram.com/" target="_blank">@cantinadualmarias</a><br>
+                    <strong>Facebook:</strong> <a href="https://facebook.com/" target="_blank">Cantina Duas Marias</a>
+                </div>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps?q=Av.+da+Saudade,+125+-+Ponte+Preta,+Campinas+-+SP,+13041-670&output=embed" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape_principal">
+        <div class="rodape_cheio">
+            <div class="rodape-col">
+                <strong>Contato</strong>
+                <a href="https://wa.me/+5519974010202/?text=urlencodedtext" target="_blank">
+                    <img src="assets/whatsapp.png" alt="WhatsApp" style="width:24px;vertical-align:middle;"> WhatsApp
+                </a><br>
+                <a href="https://instagram.com/" target="_blank"><img src="assets/facebook.png" alt="Instagram" style="width:24px;vertical-align:middle;"> Instagram</a><br>
+                <a href="https://facebook.com/" target="_blank"><img src="assets/facebook.png" alt="Facebook" style="width:24px;vertical-align:middle;"> Facebook</a>
+            </div>
+            <div class="rodape-col">
+                <strong>Horário de Funcionamento</strong>
+                <p>Segunda a Sexta: 07h00 às 21h00</p>
+                <p>Sábado: 07h00 às 15h30</p>
+            </div>
+            <div class="rodape-col">
+                <strong>Endereço</strong>
+                <p>Av. da Saudade, 125 - Ponte Preta</p>
+                <p>Campinas - SP, 13041-670</p>
+            </div>
+        </div>
+        <div class="rodape-copy">
+            &copy; 2023 Todos os direitos reservados - <a href="mailto:websolucoes.2000@gmail.com">Desenvolvido por Web Soluções</a>
+        </div>
+    </footer>
+    <button id="topo" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Voltar ao topo">↑</button>
+    <script src="js/extra.js"></script>
 </body>
+</html>
